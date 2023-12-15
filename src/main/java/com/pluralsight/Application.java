@@ -20,5 +20,7 @@ public class Application {
         // SpeakerService service = new SpeakerServiceImpl();
 
         System.out.println(service.findAll().get(0).getFirstName());
+
+        System.out.println("Seed: " + service.findAll().get(0).getSeedNum());
     }
 }
